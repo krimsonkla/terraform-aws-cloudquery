@@ -72,7 +72,7 @@ module "vpc" {
 
 module "security_group" {
   source  = "terraform-aws-modules/security-group/aws"
-  version = "~> 4.2"
+  version = "~> 5.0"
 
   name        = var.name
   description = "CloudQuery RDS Security Group"
